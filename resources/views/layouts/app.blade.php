@@ -162,7 +162,7 @@
                                 <li>
 
                                 <li>
-                                    <a href="{{url('face-to-face-payments')}}"> Online Payments </a>
+                                    <a href="{{url('online-payments')}}"> Online Payments </a>
                                 </li>
 
                             </ul>
@@ -180,7 +180,7 @@
                                 <li>
 
                                 <li>
-                                    <a href="#"> Careers </a>
+                                    <a href="{{url('careers')}}"> Careers </a>
                                 </li>
 
                             </ul>
@@ -199,7 +199,7 @@
 
                         </li>
 
-                        <li class="ps-main-nav__button-container"><a class="button primary" href="#">Get a quote</a></li>
+                        <li class="ps-main-nav__button-container"><a class="button primary" href="{{url('contact')}}">Get a quote</a></li>
 
                     </ul>
 
