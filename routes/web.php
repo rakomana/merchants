@@ -20,3 +20,29 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/contact', function () {
+    return view('contact');
+});
+
+Route::get('/my-page', function () {
+    return view('my-page');
+});
+
+Route::get('/about-us', function () {
+    return view('about-us');
+});
+
+Route::get('/get-a-quote', function () {
+    return view('get-a-quote');
+});
+
+Route::get('/face-to-face-payments', function () {
+    return view('face-to-face-payments');
+});
+
+Route::get('/online-payments', function () {
+    return view('online-payments');
+});
+
+

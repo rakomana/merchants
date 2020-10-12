@@ -16,7 +16,7 @@
 
 
 
-    <title>Alpha - Multipurpose HTML Template</title>
+    <title>Energize - Merchant Services</title>
 
 
 
@@ -72,7 +72,7 @@
 
     <!-- Font Favicon -->
 
-    <link rel="shortcut icon" href="images\favicon.ico">
+    <link rel="shortcut icon" href="#">
 
 
 
@@ -96,137 +96,6 @@
 
 <body>
 
-    
-
-    <!--begin top-intro -->
-
-    <div class="top-intro" id="top-intro">
-
-    
-
-        <!--begin container-->
-
-        <div class="container"> 
-
-
-
-            <!--begin row-->
-
-            <div class="row">
-
-            
-
-                <!--begin col-sm-4-->
-
-                <div class="col-sm-4 details-wrapper">
-
-
-
-                    <!--begin header_social -->
-
-                    <ul class="header_social">
-
-                        <li>
-
-                            <a href="#" class="twitter">
-
-                                <i class="icon icon-twitter"></i>
-
-                            </a>
-
-                        </li>
-
-                        <li>
-
-                            <a href="#" class="pinterest">
-
-                                <i class="icon icon-pinterest"></i>
-
-                            </a>
-
-                        </li>
-
-                        <li>
-
-                            <a href="#" class="facebook">
-
-                                <i class="icon icon-facebook"></i>
-
-                            </a>
-
-                        </li>
-
-                        <li>
-
-                            <a href="#" class="instagram">
-
-                                <i class="icon icon-instagram"></i>
-
-                            </a>
-
-                        </li>
-
-                        <li>
-
-                            <a href="#" class="skype">
-
-                                <i class="icon icon-skype"></i>
-
-                            </a>
-
-                        </li>
-
-                    </ul>
-
-                    <!--end header_social -->
-
-
-
-                </div>
-
-                <!--end col-sm-4 -->
-
-                 
-
-                <!--begin col-sm-8-->
-
-                <div class="col-sm-8">
-
-
-
-                    <!--begin header_contact -->
-
-                    <ul class="header_contact pull-right">
-
-                        <li><i class="icon icon-call-phone"></i> 1-987-654-3210</li>
-
-                        <li><i class="icon icon-pin-map"></i> 123, Regal Mansion, California, US</li>
-
-                    </ul>
-
-                    <!--end header_contact -->
-
-
-
-                </div>
-
-                <!--end col-sm-8 -->
-
-                       
-
-            </div>
-
-            <!--end row -->
-
-                    
-
-        </div>
-
-        <!--end container -->
-
-                
-
-    </div>
 
     <!--end top-intro -->
 
@@ -234,13 +103,13 @@
 
     <!--begin header -->
 
-    <header class="header">
+    <header class="header" style="background-color: rgba(25, 22, 29, 0.8);">
 
 
 
         <!-- begin navbar -->
 
-        <div class="navbar yamm navbar-default ">
+        <div class="navbar yamm navbar-default " style="background-color: rgba(35, 34, 97, 0.8);">
 
           
 
@@ -266,7 +135,7 @@
 
                     </button>
 
-                    <a href="index.html" class="navbar-brand brand scrool" id="logo"><span>A</span>lpha</a>
+                    <a href="{{url('/')}}"><img src="images/logo/merchant_logo.png" alt="" style="width:200px"/></a>
 
                 </div>
 
@@ -284,76 +153,16 @@
 
                     <ul class="nav navbar-nav text-right">
 
-
-
-                        <li class="dropdown"><a href="index.html" data-toggle="dropdown" class="dropdown-toggle selected">HOME</a>
-
+                        <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle" style="color:white;">Products</a>
+                            
                             <ul role="menu" class="dropdown-menu">
 
-                                <li><a tabindex="-1" href="index.html"> Home Version 1 </a></li>
-
-                                <li class="divider"></li>
-
-                                <li><a tabindex="-1" href="index-2.html"> Home Version 2 </a></li>
-
-                                <li class="divider"></li>
-
-                                <li><a tabindex="-1" href="index-3.html"> Home Version 3 </a></li>
-
-                                <li class="divider"></li>
-
-                                <li><a tabindex="-1" href="index-4.html"> Home Version 4 </a></li>
-
-                            </ul>
-
-                        </li>
-
-
-
-                        <li class="dropdown"><a href="about-us.html" data-toggle="dropdown" class="dropdown-toggle">ABOUT</a>
-
-                            <ul class="dropdown-menu">
-
+                                <li>
+                                    <a href="{{url('face-to-face-payments')}}"> Face-to-Face Payments </a>
                                 <li>
 
-                                    <div class="yamm-content">
-
-                                        <div class="row">
-
-                                            <ul class="col-sm-6 list-unstyled">
-
-                                                <li>
-
-                                                  <p class="nav-title">About Alpha<br><span class="nav-subtitle">Discover our company.</span></p>
-
-                                                </li>
-
-                                                <li><a href="about-us.html"><i class="icon icon-rocket"></i> About Our Company</a></li>
-
-                                                <li><a href="our-team.html"><i class="icon icon-chat-bubble-two"></i> Our Amazing Team</a></li>
-
-                                                <li><a href="pricing.html"><i class="icon icon-money-banknote"></i> Pricing Packages </a></li>
-
-                                            </ul>
-
-                                            <ul class="col-sm-6 list-unstyled">
-
-                                                <li>
-
-                                                  <p class="nav-title">Extra Pages<br><span class="nav-subtitle">How we can help you.</span></p>
-
-                                                </li>
-
-                                                <li><a href="services.html"><i class="icon icon-gears-setting"></i> Our Services</a></li>
-
-                                                <li><a href="service-single.html"><i class="icon icon-gears-setting"></i> Services Single Page</a></li>
-
-                                                <li><a href="services-block.html"><i class="icon icon-gears-setting"></i> Services Blocks</a></li>
-
-                                        </ul></div>
-
-                                    </div>
-
+                                <li>
+                                    <a href="{{url('face-to-face-payments')}}"> Online Payments </a>
                                 </li>
 
                             </ul>
@@ -362,153 +171,35 @@
 
 
 
-                        <li class="dropdown"><a href="portfolio-main.html" data-toggle="dropdown" class="dropdown-toggle">Services</a>
+                        <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle" style="color:white;">About Us</a>
 
-                          <ul role="menu" class="dropdown-menu">
-
-                            <li><a href="services.html"> Services Page</a></li>
-
-                            <li class="divider"></li>
-
-                            <li><a href="services-block.html"> Services Blocks</a></li>
-
-                            <li class="divider"></li>
-
-                            <li><a href="service-single.html"> Service Single Page</a></li>
-
-                          </ul>
-
-                        </li>
-
-
-
-                        <li class="dropdown yamm-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Elements</a>
-
-                            <ul class="dropdown-menu">
+                            <ul role="menu" class="dropdown-menu">
 
                                 <li>
+                                    <a href="{{url('about-us')}}"> Who Are We </a>
+                                <li>
 
-                                    <div class="yamm-content">
-
-                                        <div class="row">
-
-                                            <ul class="col-sm-3 list-unstyled">
-
-                                                <li>
-
-                                                  <p class="nav-title">About Alpha<br><span class="nav-subtitle">Discover our company.</span></p>
-
-                                                </li>
-
-                                                <li><a href="about-us.html"><i class="icon icon-rocket"></i> About Our Company</a></li>
-
-                                                <li><a href="our-team.html"><i class="icon icon-chat-bubble-two"></i> Our Amazing Team</a></li>
-
-                                                <li><a href="our-team-block.html"><i class="icon icon-science-laboratory"></i> Team Blocks</a></li>
-
-                                                <li><a href="pricing.html"><i class="icon icon-money-banknote"></i> Pricing Packages </a></li>
-
-                                            </ul>
-
-
-
-                                            <ul class="col-sm-3 list-unstyled">
-
-                                                <li>
-
-                                                  <p class="nav-title">Our Services<br><span class="nav-subtitle">How we can help you.</span></p>
-
-                                                </li>
-
-                                                <li><a href="services.html"><i class="icon icon-gears-setting"></i> Our Services</a></li>
-
-                                                <li><a href="services-block.html"><i class="icon icon-science-laboratory"></i> Services Block </a></li>
-
-                                                <li><a href="service-single.html"><i class="icon icon-sitemap"></i> Single Service Page</a></li>
-
-                                            </ul>
-
-
-
-                                            <ul class="col-sm-3 list-unstyled">
-
-                                                <li>
-
-                                                  <p class="nav-title">Alpha News<br><span class="nav-subtitle">Discover latest news</span></p>
-
-                                                </li>
-
-                                                <li><a href="blog.html"><i class="icon icon-rocket"></i> News Blog</a></li>
-
-                                                <li><a href="blog-single.html"><i class="icon icon-rocket"></i> Blog Single Page </a></li>
-
-                                            </ul>
-
-
-
-                                            <ul class="col-sm-3 list-unstyled">
-
-                                                <li>
-
-                                                  <p class="nav-title">Alpha - Business Consulting and Financial Services</p>
-
-                                                </li>
-
-                                                <li>
-
-                                                  <a href="services.html"><img src="images\chart.jpg" alt="chart-image" class="menu-image"></a>
-
-                                                </li>
-
-                                            </ul>
-
-                                        </div>
-
-                                    </div>
-
+                                <li>
+                                    <a href="#"> Careers </a>
                                 </li>
 
                             </ul>
 
                         </li>
 
-
-
-                        <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Blog</a>
+                        <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle" style="color:white;">Support</a>
 
                             <ul role="menu" class="dropdown-menu">
 
-                                <li><a tabindex="-1" href="blog.html">Blog Listing</a></li>
-
-                                <li class="divider"></li>
-
-                                <li><a tabindex="-1" href="blog-single.html">Blog Single</a></li>
+                                <li>
+                                    <a href="{{url('contact')}}"> Contact Us </a>
+                                <li>
 
                             </ul>
 
                         </li>
 
-
-
-                        <li><a href="contact-us.html" class="menu-last">Contact</a></li>
-
-
-
-                       
-
-                        <li class="dropdown hidden-nav-item"><a href="#" data-toggle="dropdown" class="dropdown-toggle">How to Reach Us</a>
-
-                            <ul role="menu" class="dropdown-menu">
-
-                                <li><a tabindex="-1" href="#"><i class="icon icon-call-phone"></i> 1-987-654-3210</a></li>
-
-                                <li><a tabindex="-1" href="#"><i class="icon icon-pin-map"></i> 123, Regal Garden, London, UK</a></li>
-
-                            </ul>
-
-                        </li>
-
-                
+                        <li class="ps-main-nav__button-container"><a class="button primary" href="#">Get a quote</a></li>
 
                     </ul>
 
@@ -683,7 +374,7 @@
 
                         <div class="copyright ">
 
-                            <p>© 2017 Alpha. Designed by <a href="http://themeforest.net/user/bogdan_09/portfolio?ref=bogdan_09" target="_blank">Epic WebDesign Team</a></p>
+                            <p>© 2020 Energize Merchant Services <a href="#" target="_blank"></a></p>
 
                             
 
