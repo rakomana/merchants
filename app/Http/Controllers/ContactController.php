@@ -38,7 +38,7 @@ class ContactController extends Controller
 
         $this->db->commit();
 
-        return redirect()->back()->with('success', 'user data successfully updated');
+        return redirect()->back()->with('success', 'Thanks for the enquiry we will be in touch');
 
     }
 }

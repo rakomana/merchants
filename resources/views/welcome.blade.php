@@ -87,7 +87,7 @@
       <input name="phone_number" placeholder="Your contact number" type="tel" tabindex="3" required>
     </fieldset>
     <fieldset>
-      <input placeholder="Your email address" type="email" tabindex="3" required>
+      <input name="email" placeholder="Your email address" type="email" tabindex="3" required>
     </fieldset>
     <fieldset>
         <p>We will use your information in accordnce with our <a style="color:blue"><u>Privacy Policy</u></a></p>

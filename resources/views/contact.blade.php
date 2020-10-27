@@ -42,18 +42,24 @@
 					</div>
 					<div class="sec2contactform">
                         <h3 class="sec2frmtitle">Want to Know More?? Drop Us a Mail</h3>
-                        @csrf
-						<form action="">
+						<form action="{{url('contact')}}" method="POST">
+							@csrf
+							@if ($message = Session::get('success'))
+							<div class="alert alert-success alert-block">
+								<button type="button" class="close" data-dismiss="alert">×</button>	
+									<strong>{{ $message }}</strong>
+							</div>
+							@endif
 							<div class="clearfix">
-								<input class="col2 first" type="text" placeholder="FirstName">
-								<input class="col2 last" type="text" placeholder="LastName">
+								<input class="col2 first" name="full_name" type="text" placeholder="FirstName" required>
+								<input class="col2 last" type="text" placeholder="LastName" required>
 							</div>
 							<div class="clearfix">
-								<input  class="col2 first" type="Email" placeholder="Email">
-								<input class="col2 last" type="text" placeholder="Contact Number">
+								<input  class="col2 first" name="email" type="Email" placeholder="Email">
+								<input class="col2 last" name="phone_number" type="text" placeholder="Contact Number">
 							</div>
 							<div class="clearfix">
-								<textarea name="textarea" id="" cols="30" rows="7">Your message here...</textarea>
+								<textarea name="message" id="" cols="30" rows="7" placeholder="Your message here..." required></textarea>
 							</div>
 							<button name="submitbtn" type="submit" href="#" class="button primary large" tabindex="0">Send</button>
 						</form>
