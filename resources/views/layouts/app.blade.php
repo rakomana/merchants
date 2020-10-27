@@ -167,36 +167,39 @@
                            <div class="main-menu" id="topheader" style="text-align: right;">
 								<nav id="mobile-menu" class="navbar navbar-default" style="display: block; background-color:#e1dae3;">
 									<ul>
-										
+                                    <li>
+											<a href="#">HOME</a>
+											
+										</li>
 										<li>
 											<a href="#">PRODUCTS</a>
 											<ul class="submenu">
 												<li>
-													<a href="http://localhost:8000/voip">Face-to-Face Payments</a>
+													<a href="">Face-to-Face Payments</a>
 												</li>
 												<li>
-													<a href="http://localhost:8000/insurance">Online Payments</a>
-												</li>
-												
-											</ul>
-										</li>
-										<li>
-											<a href="http://localhost:8000/reminder">ABOUT US </a>
-                                            <ul class="submenu">
-												<li>
-													<a href="http://localhost:8000/voip">Who Are We</a>
-												</li>
-												<li>
-													<a href="http://localhost:8000/insurance">Careers</a>
+													<a href="">Online Payments</a>
 												</li>
 												
 											</ul>
 										</li>
 										<li>
-											<a href="http://localhost:8000/news">SUPPORT</a>
+											<a href="">ABOUT US </a>
                                             <ul class="submenu">
 												<li>
-													<a href="http://localhost:8000/voip">Contact Us</a>
+													<a href="">Who Are We</a>
+												</li>
+												<li>
+													<a href="">Careers</a>
+												</li>
+												
+											</ul>
+										</li>
+										<li>
+											<a href="">SUPPORT</a>
+                                            <ul class="submenu">
+												<li>
+													<a href="">Contact Us</a>
 												</li>
 												
 											</ul>
