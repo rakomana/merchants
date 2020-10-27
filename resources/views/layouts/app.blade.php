@@ -12,7 +12,7 @@
 
     <meta name="keywords" content="">
 
-    <meta name="description" content="">
+    <meta name="description" content="Leeuw Maluleka">
 
 
 
@@ -23,6 +23,7 @@
 	<!-- LOAD JQUERY LIBRARY -->
 
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
+    
 
 	
 
@@ -66,8 +67,9 @@
 
     <link rel="stylesheet" type="text/css" href="revolution\fonts\pe-icon-7-stroke\css\pe-icon-7-stroke.css">
 
-    <link rel="stylesheet" type="text/css" href="revolution\fonts\font-awesome\css\font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="revolution\fonts\pe-icon-7-stroke\css\pe-icon-7-stroke.css">
 
+    <link rel="stylesheet" type="text/css" href="css\additional\style.css">
 
 
     <!-- Font Favicon -->
@@ -96,138 +98,145 @@
 
 <body>
 
+<header>
+			<!-- header-top-area-start -->
+			<div class="header-top-area header-white">
+				<div class="container">
+					<div class="row">
+						<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+							<ul class="header-wrapper">
+								<li>
+									<div class="header-icon">
+										<i class="fas fa-phone"></i>
+									</div>
+									<div class="header-text">
+                                    <div><a style="color:#ac4c7c"><strong>Sales</strong></a><i class="icon icon-call-phone"></i> 1-xxx-xxx-xxxx</div>
+									</div>
+								</li>
+								<li>
+									<div class="header-icon">
+										<i class="fas fa-envelope"></i>
+									</div>
+									<div class="header-text">
+                                       <div> <a style="color:#ac4c7c"><strong>Support</strong></a><i class="icon icon-call-phone"></i> 1-xxx-xxx-xxxx</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+							<div class="header-right-wrapper">
+								<ul class="headers-icon">
+									<li>
+                                    <a href="#" class="facebook">
 
-    <!--end top-intro -->
+                                        <i class="icon icon-facebook"></i>
 
+                                            </a>
+                                    </li>
+									<li> <a href="#" class="twitter">
+                                        <i class="icon icon-twitter"></i>
+                                    </li>
+									<li><a href="#" class="instagram">
+                                        <i class="icon icon-instagram"></i>
+                                        </a></li>
+									<li> <a href="#" class="skype">
 
+                                        <i class="icon icon-skype"></i>
 
-    <!--begin header -->
+                                                        </a></li>
+									
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- header-top-area-end -->
+			<div class="header-menu" style="background-color: #e1dae3;">
+				<div class="container" style="background-color: #e1dae3;">
+					<div class="row">
+						<div class="col-xl-3 col-lg-3">
+							<div class="logo">
+								<a href="http://localhost:8000"><img src="images/logo/merchant_logo.png" alt="" style="width:80%; padding:0px;"></a>
+							</div>
+						</div>
+						<div class="col-xl-9 col-lg-9">
+							<!--<div class="header-button d-none d-sm-none d-md-none d-lg-block">
+								<a class="btn btn-border" href="#">get a quote <i class="fas fa-long-arrow-alt-right"></i></a>
+							</div>-->
+                           <div class="main-menu" id="topheader" style="text-align: right;">
+								<nav id="mobile-menu" class="navbar navbar-default" style="display: block; background-color:#e1dae3;">
+									<ul>
+										
+										<li>
+											<a href="#">PRODUCTS</a>
+											<ul class="submenu">
+												<li>
+													<a href="http://localhost:8000/voip">Face-to-Face Payments</a>
+												</li>
+												<li>
+													<a href="http://localhost:8000/insurance">Online Payments</a>
+												</li>
+												
+											</ul>
+										</li>
+										<li>
+											<a href="http://localhost:8000/reminder">ABOUT US </a>
+                                            <ul class="submenu">
+												<li>
+													<a href="http://localhost:8000/voip">Who Are We</a>
+												</li>
+												<li>
+													<a href="http://localhost:8000/insurance">Careers</a>
+												</li>
+												
+											</ul>
+										</li>
+										<li>
+											<a href="http://localhost:8000/news">SUPPORT</a>
+                                            <ul class="submenu">
+												<li>
+													<a href="http://localhost:8000/voip">Contact Us</a>
+												</li>
+												
+											</ul>
+										</li>
+										<li>
+                                        <li class="ps-main-nav__button-container" style="padding-top:12px; padding-right:0px;"><button class="button primary" href="{{url('contact')}}">Get a quote</button></li>
+										</li>
+									</ul>
+								</nav>
+						   </div>
+							<div class="mobile-menu"></div>
+                       </div>
+					</div>
+				</div>
+			</div>
 
-    <header class="header" style="background-color: rgba(25, 22, 29, 0.8);">
-
-
-
-        <!-- begin navbar -->
-
-        <div class="navbar yamm navbar-default " style="background-color: rgba(35, 34, 97, 0.8);">
-
-          
-
-            <!-- begin container -->
-
-            <div class="container">
-
-
-
-                <!-- begin navbar-header -->
-
-                <div class="navbar-header">
-
-                    <button data-target="#navbar-collapse-02" data-toggle="collapse" class="navbar-toggle" type="button">
-
-                        <span class="sr-only">Toggle navigation</span>
-
-                        <span class="icon-bar"></span>
-
-                        <span class="icon-bar"></span>
-
-                        <span class="icon-bar"></span>
-
-                    </button>
-
-                    <a href="{{url('/')}}"><img src="images/logo/merchant_logo.png" alt="" style="width:200px"/></a>
-
-                </div>
-
-                <!-- end navbar-header -->
-
-
-
-                <!-- begin navbar -->
-
-                <div id="navbar-collapse-02" class="navbar-collapse collapse">
-
-                    
-
-                    <!-- begin nav -->
-
-                    <ul class="nav navbar-nav text-right">
-
-                        <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle" style="color:white;">Products</a>
+            <!-- header-top-area-start -->
+			<div class="header-top-area header-white" style="background-color:#f6f7f8;">
+				<div class="container">
+					<div class="row">
+						<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+							<ul class="header-wrapper">
+                            <a href="http://localhost:8000"><img src="images/payment_logos_2020.png" alt="" style="width:40%; padding-top:15px;"></a>
                             
-                            <ul role="menu" class="dropdown-menu">
-
-                                <li>
-                                    <a href="{{url('face-to-face-payments')}}"> Face-to-Face Payments </a>
-                                <li>
-
-                                <li>
-                                    <a href="{{url('online-payments')}}"> Online Payments </a>
-                                </li>
-
-                            </ul>
-
-                        </li>
-
-
-
-                        <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle" style="color:white;">About Us</a>
-
-                            <ul role="menu" class="dropdown-menu">
-
-                                <li>
-                                    <a href="{{url('about-us')}}"> Who Are We </a>
-                                <li>
-
-                                <li>
-                                    <a href="{{url('careers')}}"> Careers </a>
-                                </li>
-
-                            </ul>
-
-                        </li>
-
-                        <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle" style="color:white;">Support</a>
-
-                            <ul role="menu" class="dropdown-menu">
-
-                                <li>
-                                    <a href="{{url('contact')}}"> Contact Us </a>
-                                <li>
-
-                            </ul>
-
-                        </li>
-
-                        <li class="ps-main-nav__button-container"><a class="button primary" href="{{url('contact')}}">Get a quote</a></li>
-
-                    </ul>
-
-                    <!-- end nav -->
-
-
-
-                </div>
-
-                <!-- end navbar -->
-
-
-
-            </div>
-
-            <!-- end container -->
-
-
-
-        </div>
-
-        <!-- end navbar -->
-
-            
-
-    </header>
-
-    <!--end header -->
+								</li>
+							</ul>
+						</div>
+						<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+							<div class="header-right-wrapper">
+								<ul class="headers-icon">
+                                <p style="text-align:right; color:#252464;">In association with &nbsp; <img src="images/bcardlogo@3x@2x.png" style="width:20%;"></p>
+									
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- header-top-area-end -->
+		</header>
 
     @yield('content')
 
@@ -288,19 +297,21 @@
 
                         
 
-                        <li class="first"><a href="#" target="blank">Financial Planning</a></li>
+                        <li class="first"><a href="#" target="blank">Face-to-Face Payments</a></li>
 
                         
 
-                        <li><a href="#" target="blank">Financial Solutions For Startups</a></li>
+                        <li><a href="#" target="blank">Online Payments</a></li>
 
                         
 
-                        <li><a href="#" target="blank">Business Context 2017</a></li>
+                        <li><a href="#" target="blank">Who We Are</a></li>
 
                         
 
-                        <li><a href="#" target="blank">Target Your Best Loan Posibility</a></li>
+                        <li><a href="#" target="blank">Careers</a></li>
+
+                        <li><a href="#" target="blank">Contact Us</a></li>
 
                         
 
@@ -328,15 +339,15 @@
 
                     
 
-                    <p class="contact_info"><i class="icon icon-pin-map"></i> Oxford Street, London, UK, N1 1ED</p>
+                    <p class="contact_info"><i class="icon icon-pin-map"></i> XXX Street, XXX, UK, XXXXXXX</p>
 
                     
 
-                    <p class="contact_info"><i class="icon icon-email-envelope"></i> <a href="mailto:contact@email.com">contact@marketer.com</a></p>
+                    <p class="contact_info"><i class="icon icon-email-envelope"></i> <a href="mailto:contact@email.com">contact@yourdomain.com</a></p>
 
                     
 
-                    <p class="contact_info"><i class="icon icon-call-phone"></i> +44 987 654 321</p>
+                    <p class="contact_info"><i class="icon icon-call-phone"></i> +xx xxx xxx xxx</p>
 
                 
 
@@ -432,15 +443,6 @@
 
                         </li>
 
-                        <li>
-
-                            <a href="#">
-
-                                <i class="icon icon-pinterest"></i>
-
-                            </a>
-
-                        </li>
 
                         <li>
 

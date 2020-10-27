@@ -81,6 +81,26 @@ Version: 1.0
 /* 			            01. GENERAL LAYOUT                    */
 
 /* ========================================================== */
+.new-seo-features {
+    
+    opacity: 1;
+    background-image: url();
+}
+
+.seo-features {
+    padding: 40px 0px;
+}
+
+.row_reverse {
+    flex-direction: row-reverse;
+}
+
+.d_flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
 
 
 
@@ -554,11 +574,22 @@ img.fluid {
 
 }
 
+.header-contact-numbers {
+    transition: .3s ease opacity,.5s ease height;
+    overflow: hidden;
+    margin-top: -.05rem;
+    height: 2.25rem;
+    display: initial!important;
+    justify-content: initial!important;
+    -webkit-justify-content: initial!important;
+    white-space: nowrap;
+    text-align: right;
+}
 
 
 .home-section2 {
 
-	background: url(../images/hearder1@3x-100.jpg) top center no-repeat;
+	background: url(../images/Artboard.jpg) top center no-repeat;
 
 	background-size: 100%;
 
@@ -1958,9 +1989,9 @@ ul.hero-list-checked.second-list li i{
 
 	float: left;
 
-	font-size: 17px;
+	font-size: 20px;
 
-	color: #007adf;
+	color: #252464;
 
 	margin-right: 5px;
 
@@ -1984,7 +2015,7 @@ ul.hero-list-checked.second-list li i{
 
 	position:relative;
 
-	background-color: #001527;
+	background-color: #252464;
 
 	margin: 0 auto;
 
