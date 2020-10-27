@@ -1981,7 +1981,27 @@ ul.hero-list-checked.second-list li p{
 
 }
 
+.somesection {margin-top:150px!important;}
 
+.post-qm-somos-img {
+  max-width:100%;
+  border-radius: 10px;
+}
+
+.img-post-qm-somos {
+  float:right;
+  width:65%; /*important*/
+  bottom:21vw; /*important*/
+}
+.texto-post-qm-somos {
+  background:#fff;
+  z-index: 1;
+  padding: 25px;
+  border: solid 1px #ccc;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
 
 ul.hero-list-checked.second-list li i{
 

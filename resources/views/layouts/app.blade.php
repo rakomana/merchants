@@ -110,7 +110,7 @@
 										<i class="fas fa-phone"></i>
 									</div>
 									<div class="header-text">
-                                    <div><a style="color:#ac4c7c"><strong>Sales</strong></a><i class="icon icon-call-phone"></i> 1-xxx-xxx-xxxx</div>
+                                    <div><a style="color:white"><strong>SALES</strong></a><i class="icon icon-call-phone" style="color:white"></i> <a style="color:white">1-xxx-xxx-xxxx</a></div>
 									</div>
 								</li>
 								<li>
@@ -118,7 +118,7 @@
 										<i class="fas fa-envelope"></i>
 									</div>
 									<div class="header-text">
-                                       <div> <a style="color:#ac4c7c"><strong>Support</strong></a><i class="icon icon-call-phone"></i> 1-xxx-xxx-xxxx</div>
+                                       <div> <a style="color:white"><strong>SUPPORT</strong></a><i class="icon icon-call-phone" style="color:white"></i><a style="color:white"> 1-xxx-xxx-xxxx</a></div>
 									</div>
 								</li>
 							</ul>
@@ -168,17 +168,17 @@
 								<nav id="mobile-menu" class="navbar navbar-default" style="display: block; background-color:#e1dae3;">
 									<ul>
                                     <li>
-											<a href="#">HOME</a>
+											<a href="{{url('/')}}">HOME</a>
 											
 										</li>
 										<li>
 											<a href="#">PRODUCTS</a>
 											<ul class="submenu">
 												<li>
-													<a href="">Face-to-Face Payments</a>
+													<a href="{{url('face-to-face-payments')}}">Face-to-Face Payments</a>
 												</li>
 												<li>
-													<a href="">Online Payments</a>
+													<a href="{{url('online-payments')}}">Online Payments</a>
 												</li>
 												
 											</ul>
@@ -187,10 +187,10 @@
 											<a href="">ABOUT US </a>
                                             <ul class="submenu">
 												<li>
-													<a href="">Who Are We</a>
+													<a href="{{url('about-us')}}">Who Are We</a>
 												</li>
 												<li>
-													<a href="">Careers</a>
+													<a href="{{url('careers')}}">Careers</a>
 												</li>
 												
 											</ul>
@@ -199,7 +199,7 @@
 											<a href="">SUPPORT</a>
                                             <ul class="submenu">
 												<li>
-													<a href="">Contact Us</a>
+													<a href="{{url('contact')}}">Contact Us</a>
 												</li>
 												
 											</ul>
@@ -230,7 +230,7 @@
 						<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
 							<div class="header-right-wrapper">
 								<ul class="headers-icon">
-                                <p style="text-align:right; color:#252464;">In association with &nbsp; <img src="images/bcardlogo@3x@2x.png" style="width:20%;"></p>
+                                <p style="text-align:right; color:#252464;"><a><img src="images/Artboard2.png" style="width:35%; padding-top:0px;"></p>
 									
 								</ul>
 							</div>

@@ -73,10 +73,13 @@
       <input placeholder="Your full name" type="text" tabindex="1" required autofocus>
     </fieldset>
     <fieldset>
-      <input placeholder="Your business name" type="email" tabindex="2" required>
+      <input placeholder="Your business name" type="text" tabindex="2" required>
     </fieldset>
     <fieldset>
       <input placeholder="Your contact number" type="tel" tabindex="3" required>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your email address" type="email" tabindex="3" required>
     </fieldset>
     <fieldset>
         <p>We will use your information in accordnce with our <a style="color:blue"><u>Privacy Policy</u></a></p>
@@ -208,12 +211,12 @@
     </section>
 
 
-    <section class="section-grey">
-  <!--begin container-->
+  <!--  <section class="section-grey">
+
 
         <div class="container">
 
-            <!--begin row-->
+          
 
             <h1 style="text-align:center;">Choose from a range of machines</h1>
 <div class="wrapper">
@@ -322,19 +325,19 @@
 }
 
 </style>
-                <!--end col-md-12-->
+               
 
             </div>
 
-        <!--end container-->
+    
 
-    </section>
+    </section> -->
 
     <!--end section grey-->
 
     <!--begin section-white -->
 
-    <section class="section-white-xs">
+    <section class="section-white-xs" style="background-color:#f6f7f8">
 
         <!--begin container-->
 
@@ -345,10 +348,10 @@
             <div class="row">
 
 
-            <div class="grid-x m-rich-unique-selling-points new-style ">
+            <div class="grid-x m-rich-unique-selling-points new-style " style="background-color:#f6f7f8">
     <div class="large-12 cell">
-        <div class="grid-container" data-equalizer="usp-title" data-resize="usp-title" data-mutate="usp-title" data-e="xajg2n-e" data-events="resize">
-            <div class="grid-x align-justify flex-container text-center" data-equalizer="usp-body" data-resize="usp-body" data-mutate="usp-body" data-e="6tafea-e" data-events="mutate">
+        <div class="grid-container" style="background-color:#f6f7f8" data-equalizer="usp-title" data-resize="usp-title" data-mutate="usp-title" data-e="xajg2n-e" data-events="resize">
+            <div class="grid-x align-justify flex-container text-center" style="background-color:#f6f7f8" data-equalizer="usp-body" data-resize="usp-body" data-mutate="usp-body" data-e="6tafea-e" data-events="mutate">
                 <div class="large-12 medium-12 small-12 align-center align-middle flex-container">
                     <h2 class="e-5stars-after">Why choose <br>Energize Merchant Services?</h2>
                 </div>
