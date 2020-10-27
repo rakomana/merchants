@@ -1,32 +1,44 @@
 <?php
 
 namespace App\Http\Controllers;
- 
+
+use App\Contact;
 use Illuminate\Http\Request;
- 
-class ContactController extends Controller{
-     
-    public function index(){
-        return view('contact');
+use App\Http\Requests\ContactStoreRequest;
+use Illuminate\Database\ConnectionInterface as DB;
+
+class ContactController extends Controller
+{
+    private $contact;
+    private $db;
+
+    public function __construct(Contact $contact, DB $db)
+    {
+        $this->contact = $contact;
+        $this->db = $db;
     }
 
-    public function store(Request $request){
- 
-        // validate fields
-        $this->validate($request, [
-            'name' => ['required', 'string', new NoHtml],
-            'email' => ['required', 'email', new NoHtml],
-            'subject' => ['required', 'string', new NoHtml],
-            'message' => ['required', 'string', new NoHtml]
-        ]);
- 
- 
- 
-        // redirect to contact form with message
-        session()->flash('success', 'Message is sent! We will get back to you soon!');
- 
-        return redirect()->back();
- 
+    /**
+     * Store a newly created resource in storage.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @return \Illuminate\Http\Response
+     */
+    public function store(ContactStoreRequest $request)
+    {
+        $this->db->beginTransaction();
+
+        $contact = new $this->contact();
+        $contact->full_name = $request->full_name;
+        $contact->phone_number = $request->phone_number;
+        $contact->postcode = $request->postcode;
+        $contact->email = $request->email;
+        $contact->message = $request->message;
+        $contact->save();
+
+        $this->db->commit();
+
+        return redirect()->back()->with('success', 'user data successfully updated');
+
     }
- 
 }
