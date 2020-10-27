@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ContactController;
+use App\Http\Controllers\QuoteController;
 
 /*
 |--------------------------------------------------------------------------
@@ -48,5 +50,8 @@ Route::get('/face-to-face-payments', function () {
 Route::get('/online-payments', function () {
     return view('online-payments');
 });
+
+Route::post('quote', [QuoteController::class, 'store']);
+Route::post('contact', [ContactController::class, 'store']);
 
 
