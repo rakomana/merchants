@@ -23,7 +23,7 @@
                             <p style="color:#e1dae5; font-size:20px;"><strong>Want to sell your products online? It can help you reach new customers, which should mean more sales in the long run.
 
                             Well, we’re here to help.</strong> </p>
-                            <p style="color:#e1dae5; font-size:20px;"><strong>Our online payment gateway hooks up with the majority of leading shopping carts, so you can take payments through your website and get those sales coming in.</strong></p>
+                            <p style="color:#e1dae5; font-size:20px;"><strong>Our payments gateway integrates with the majority of leading shopping carts, so you can take payments through your website and get those sales coming in.</strong></p>
                                                    <!-- <a class="btn btn-outline-white mt-1" href="/get-a-free-quote/" id="pulloutBannerCta">Get a free quote</a> -->
             </div>
         </div>
@@ -62,9 +62,7 @@
         <fieldset>
           <input name="email" placeholder="Your email address" type="email" tabindex="3" required>
         </fieldset>
-        <fieldset>
-            <p>We will use your information in accordnce with our <a style="color:blue"><u>Privacy Policy</u></a></p>
-        </fieldset>
+        
         <fieldset>
     
         <button name="submitbtn" type="submit" href="#" class="button primary large" tabindex="0">Get a FREE quote</button>
@@ -217,7 +215,7 @@
             <section >
     <div class="module v2-new-or-switching-module overflow-hidden in-viewport ">
         <div class="container">
-        <h1 style="text-align:center;">Choose from a range of machines</h1>
+        <h1 style="text-align:center;">Choose from a range of options</h1>
         <link rel="stylesheet" type="text/css" href="css\additional\tp.min78ce.css">
             <div class=" card-deck justify-content-around">
                         <div class="card border-0">
@@ -245,8 +243,8 @@
                             <a href="#/">
 
                                     <picture>
-                                        <source srcset="images/link.png" type="image/webp">
-                                        <img src="images/98-989061_svg-link-clip-art-royalty-free-download-link.png" class="card-img-top lazy">
+                                        <source srcset="images/download14.jpg" type="image/webp">
+                                        <img src="images/download.jpg" class="card-img-top lazy">
                                     </picture>                            </a>
                             <div class="card-body">
                                 <h3>Pay by link</h3>
