@@ -38,10 +38,32 @@
     <!--begin newsletter_info -->
 
     <div class="newsletter_info3 margin-bottom-40">
-
-
-
-    <form id="contact" action="" method="post">
+       <form id="contact" action="{{url('quote')}}" method="post">
+            @csrf
+            @if ($message = Session::get('success'))
+            <div class="alert alert-success alert-block">
+                <button type="button" class="close" data-dismiss="alert">×</button>	
+                    <strong>{{ $message }}</strong>
+            </div>
+            @endif
+            <h3>Get your Free quote today</h3>   
+            <fieldset>
+              <input name="full_name" placeholder="Your full name" type="text" tabindex="1" required autofocus>
+            </fieldset>
+            <fieldset>
+              <input name="business_name" placeholder="Your business name" type="text" tabindex="2" required>
+            </fieldset>
+            <fieldset>
+              <input name="phone_number" placeholder="Your contact number" type="tel" tabindex="3" required>
+            </fieldset>
+            <fieldset>
+              <input name="email" placeholder="Your email address" type="email" tabindex="3" required>
+            </fieldset>
+            <fieldset>
+            <button name="submitbtn" type="submit" href="#" class="btn btn-primary" tabindex="0">Get a FREE quote</button>
+            </fieldset>
+          </form>
+<!--    <form id="contact" action="" method="post">
     <h3>Get your Free quote today</h3>
 
     <fieldset>
@@ -61,7 +83,7 @@
       <button name="submitbtn" type="submit" href="#" class="button primary large" tabindex="0">Get a FREE quote</button>
 
     </fieldset>
-  </form>
+  </form> -->
         </div>
 </div>
 </div>
