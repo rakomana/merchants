@@ -204,9 +204,10 @@
 												
 											</ul>
 										</li>
-										<li>
-                                        <li class="ps-main-nav__button-container" style="padding-top:12px; padding-right:0px;"><button class="button primary" href="{{url('contact')}}">Get a quote</button></li>
-										</li>
+										
+                                        
+                                        <a class="button primary ps-main-nav__button-container" href="{{url('quote')}}" style="padding-top:12px; padding-right:0px;">Get a quote &nbsp;&nbsp;</a>
+										
 									</ul>
 								</nav>
 						   </div>

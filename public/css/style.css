@@ -540,7 +540,7 @@ img.fluid {
 
 .home-section {
 
-	background: url(../images/hero-image1.jpg) top center no-repeat;
+	background: url(../images/Artboard3.jpg) top center no-repeat;
 
 	background-size: cover;
 
@@ -589,7 +589,7 @@ img.fluid {
 
 .home-section2 {
 
-	background: url(../images/Artboard.jpg) top center no-repeat;
+	background: url(../images/Artboard5.jpg) top center no-repeat;
 
 	background-size: 100%;
 
@@ -1795,7 +1795,7 @@ img.fluid {
 
 .home-title-video span.text{
 
-	font-family: 'Roboto', sans-serif;
+	font-family: Montserrat;
 
 	font-size: 18px;
 
@@ -1943,7 +1943,7 @@ ul.hero-list-checked li i{
 
 ul.hero-list-checked li p{
 
-	font-family: 'Lato', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 
 	color: #003059;
 
@@ -1971,7 +1971,7 @@ ul.hero-list-checked li p span{
 
 ul.hero-list-checked.second-list li p{
 
-	font-family: 'Lato', sans-serif;
+	font-family: 'Montserrat', Lato, sans-serif;
 
 	font-size: 16px;
 
@@ -2009,9 +2009,9 @@ ul.hero-list-checked.second-list li i{
 
 	float: left;
 
-	font-size: 20px;
+	font-size: 30px;
 
-	color: #252464;
+	color:#ac4c7c;
 
 	margin-right: 5px;
 
@@ -2431,7 +2431,7 @@ ul.footer-list li a:hover{
 
     font-weight: 500;
 
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', Roboto, sans-serif;
 
 }
 
@@ -2445,7 +2445,7 @@ ul.footer-list li a:hover{
 
     font-weight: 400;
 
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', Roboto, sans-serif;
 
 }
 
@@ -2503,7 +2503,7 @@ ul.footer-list li a:hover{
 
 .navbar-default .navbar-nav > li > a{
 
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Montserrat',Roboto, sans-serif;
 
 	font-size: 14px !important;
 
@@ -3033,7 +3033,7 @@ ul.service-features li i {
 
 .service-wrapper i {
 
-	font-family: "Flaticon";
+	font-family: "Montserrat";
 
     font-size: 46px;
 
@@ -3103,7 +3103,7 @@ ul.service-features li i {
 
 .service-wrapper2 i {
 
-	font-family: "Flaticon";
+	font-family: "Montserrat";
 
     font-size: 58px;
 

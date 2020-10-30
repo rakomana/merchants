@@ -4,14 +4,9 @@
 
     <div class="home-section2">
 
-
-
-
         <!--begin container -->
 
         <div class="container">
-
-
 
         <div class="row">
 
@@ -21,7 +16,7 @@
 
 
 
-    <h2 class="section-title dark-blue" style="color:#ac4c7c;"><strong>Take Payments Online 24/7.</strong></h2>
+    <h2 class="section-title dark-blue" style="color:#e1dae5;"><strong>Take Payments Online 24/7.</strong></h2>
 
     <ul class="hero-list-checked second-list">
 
@@ -35,7 +30,7 @@
     <br>
    
 
-    <h2 class="section-title dark-blue" style="color:#ac4c7c;"><strong>Take Payments From Your Business or Take Your Business On The Go. </strong></h2>
+    <h2 class="section-title dark-blue" style="color:#e1dae5;"><strong>Take Payments For Your Business or Take Your Business On The Go. </strong></h2>
 
     <ul class="hero-list-checked second-list">
 
@@ -138,15 +133,12 @@
 
         <div class="tab-container">
 
-
-
             <div class="tab-content text-left" data-tab="1">
 
-
-
-                <p class="margin-bottom-20">Online payments allow a quick and easy route to increase your potential customer base. Your business is running 24/7!
-                We can enable you to take payments through your website through a payment gateway, via email with a payment link, or over the phone with a virtual terminal.
-                Our specialist payment consultants are her to help you choose the right option for your businesses needs. </p>
+                <p class="margin-bottom-20">Online payments allow a quick and easy route to increase your potential customer base. 
+                Your business can be running 24/7. We can enable you to take payments through a payment gateway on your website, 
+                via email with a payment link, or over the phone with a virtual terminal. Our specialist payment consultants are her 
+                to help you choose the right option for your businesses needs. </p>
 
             </div>
 
@@ -176,13 +168,13 @@
 
 
 
-            <p class="margin-bottom-20">Whether you're new to card payments, or are looking to switch provider, we have specialist payment consultants waiting to help you. </p>
+            <p class="margin-bottom-20">Whether you're new to card payments or are looking to switch provider, we have specialist payment consultants waiting to help you. </p>
             <p>They find out how you would like to take card payments and create a bespoke pricing package that's right for you.
             All our terminals allow you to take contactless, Google Pay and Apple payments as standard so your customers can easily pay with a tap.  Your 
             reader are set up to take payments safely and securely to give you peace of mind that your funds are safe.</p>
             <p>Our dedicated set up teams allow you to get up and running in no time. We have no set up fee, can offer payments to your bank the next working
             day and if you're an existing merchant, guarantee to beat your current cost!</p>
-            <p>We have a support team on hand 7 days a week if yo ever need them.</p>
+            <p>We have a support team on hand 7 days a week if you ever need them.</p>
 
             <!--end testimonials_item -->
 

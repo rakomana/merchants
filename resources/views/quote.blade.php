@@ -2,7 +2,7 @@
 
 @section('content')
 <section>
-<div class="home-section2" style="background-image:url(images/contact.png)">
+<div class="home-section2" style="background-image:url(images/Get-Quote-Banner.jpg)">
 
 
         <div class="container">
@@ -25,44 +25,42 @@
 				<div class="textcenter">
 					
 					<span class="seperator"></span>
-					<h1>Drop Us a Mail</h1>
+					<h1>Get Your Quote</h1>
 				</div>
 			</section>
 		
 			<section class="section2 clearfix">
 				<div class="col2 column1 first">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9552410.023690216!2d-13.437587557243363!3d54.23086390111792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x25a3b1142c791a9%3A0xc4f8a0433288257a!2sUnited%20Kingdom!5e0!3m2!1sen!2sza!4v1603806359568!5m2!1sen!2sza" width="600" height="450" frameborder="0" style="border:0; overflow:hidden; height:656px; width:100%;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9552410.023690216!2d-13.437587557243363!3d54.23086390111792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x25a3b1142c791a9%3A0xc4f8a0433288257a!2sUnited%20Kingdom!5e0!3m2!1sen!2sza!4v1603806359568!5m2!1sen!2sza" width="600" height="450" frameborder="0" style="border:0; overflow:hidden; height:550px; width:100%;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 				</div>
 				<div class="col2 column2 last">
 					<div class="sec2innercont">
-						<div class="sec2addr">
-							<p>xxxx, xxxxxxxxxxx xxxxxxxxx UK</p>
-							<p><span class="collig">Email :</span> xxxxx@yourdomail.com</p>
-						</div>
+						
 					</div>
 					<div class="sec2contactform">
-                        <h3 class="sec2frmtitle">For more information complete our contact form and one of our specialist payment consultants will contact you</h3>
-						<form action="{{url('contact')}}" method="POST">
-							@csrf
-							@if ($message = Session::get('success'))
-							<div class="alert alert-success alert-block">
-								<button type="button" class="close" data-dismiss="alert">×</button>	
-									<strong>{{ $message }}</strong>
-							</div>
-							@endif
-							<div class="clearfix">
-								<input class="col2 first" name="full_name" type="text" placeholder="FirstName" required>
-								<input class="col2 last" type="text" placeholder="LastName" required>
-							</div>
-							<div class="clearfix">
-								<input  class="col2 first" name="email" type="Email" placeholder="Email">
-								<input class="col2 last" name="phone_number" type="text" placeholder="Contact Number">
-							</div>
-							<div class="clearfix">
-								<textarea name="message" id="" cols="30" rows="7" placeholder="Your message here..." required></textarea>
-							</div>
-							<button name="submitbtn" type="submit" href="#" class="button primary large" tabindex="0">Send</button>
-						</form>
+                       
+                        @csrf
+						<form id="contact" action="" method="post">
+   							 <h3>Get your Free quote today by completing the below form and one of our specialists will contact you</h3>
+
+   							 <fieldset>
+      						<input placeholder="Your full name" type="text" tabindex="1" required autofocus>
+    						</fieldset>
+    						<fieldset>
+      							<input placeholder="Your business name" type="text" tabindex="2" required>
+    						</fieldset>
+    						<fieldset>
+      							<input placeholder="Your contact number" type="tel" tabindex="3" required>
+    						</fieldset>
+    						<fieldset>
+     							 <input placeholder="Your email address" type="email" tabindex="3" required>
+    						</fieldset>
+   						 <fieldset>
+
+      			          <button name="submitbtn" type="submit" href="#" class="button primary large" tabindex="0">Get a FREE quote</button>
+
+  					  </fieldset>
+  						</form>
 					</div>
 
 				</div>
