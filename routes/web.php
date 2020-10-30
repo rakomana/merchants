@@ -49,4 +49,8 @@ Route::get('/online-payments', function () {
     return view('online-payments');
 });
 
+Route::get('/quote', function () {
+    return view('quote');
+});
+
 

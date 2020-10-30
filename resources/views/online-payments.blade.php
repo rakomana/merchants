@@ -2,7 +2,7 @@
 
 @section('content')
  
-<div class="home-section2" style="background-image:url(images/mobile.jpg)">
+<div class="home-section2" style="background-image:url(images/Artboard10.jpg)">
 
 
         <div class="container">
@@ -19,11 +19,11 @@
         <div class="container">
         <div class="row">
             <div class="col-sm-12 col-md-12 text-center" style="text-align:left;">
-                            <h2 class="smile-white" style="color:#ac4c7c;"><strong>Take Card Payments <br>Online.</strong></h2>
-                            <p style="color:#252464;">Want to sell your products online? It can help you reach new customers,<br>which should mean more sales in the long run.
+                            <h2 class="smile-white" style="color:#252464;"><strong>Take Card Payments <br>Online.</strong></h2>
+                            <p style="color:#e1dae5; font-size:20px;"><strong>Want to sell your products online? It can help you reach new customers, which should mean more sales in the long run.
 
-Well, we’re here to help. </p>
-<p style="color:#252464;">Our online payment gateway hooks up with the majority of leading shopping carts, <br>so you can take payments through your website and get those sales coming in.</p>
+                            Well, we’re here to help.</strong> </p>
+                            <p style="color:#e1dae5; font-size:20px;"><strong>Our online payment gateway hooks up with the majority of leading shopping carts, so you can take payments through your website and get those sales coming in.</strong></p>
                                                    <!-- <a class="btn btn-outline-white mt-1" href="/get-a-free-quote/" id="pulloutBannerCta">Get a free quote</a> -->
             </div>
         </div>
@@ -58,7 +58,7 @@ Well, we’re here to help. </p>
     </fieldset>
     <fieldset>
 
-                <button name="submitbtn" type="submit" href="#" class="button primary large" tabindex="0">Get a FREE quote</button>
+      <button name="submitbtn" type="submit" href="#" class="button primary large" tabindex="0">Get a FREE quote</button>
 
     </fieldset>
   </form>
@@ -125,18 +125,172 @@ Well, we’re here to help. </p>
 
     </section>
 
-<section>
-<div class="container somesection">
-  <div class="row">
-  <div class="col-md-6 texto-post-qm-somos"> 
-      <h2>Make your website work harder. Take card payments online.</h2> 
-  Being able to take card payments on your site is an easy way to get more customers and get more sales. It’s what it’s all about, right? Which is why we offer simple and secure ways to accept online payments. From plugins that integrate with the most popular shopping carts, to customisable checkout pages, we’ll get you taking card payments online
-    </div>
-    <div class="col-md-6 img-post-qm-somos">
-      <img src="images/giphy.gif" class="post-qm-somos-img" style="width:70%;">
-    </div>
-  </div>
-    </div>
-</section>
  
+<div class="container">
+    <div class="row">
+<!--begin col-md-6-->
+
+<div class="col-md-6">
+
+
+    </div>
+
+    <div class="row">
+<!--begin col-md-6-->
+
+<div class="col-md-6">
+
+<div class="tabs about-tabs">
+
+
+
+<h2 style="color:#252464"><span>Make your website work harder. Take card payments online.</span></h2>
+
+
+    <div class="tab-container">
+
+
+
+        <div class="tab-content text-left" data-tab="1">
+
+
+
+            <p class="margin-bottom-20">Being able to take card payments on your site is an easy way to get more 
+            customers and get more sales. It’s what it’s all about, right? Which is why we offer simple and secure 
+            ways to accept online payments. From plugins that integrate with the most popular shopping carts, to 
+            customisable checkout pages, we’ll get you taking card payments online</p>
+           
+
+            <!--end testimonials_item -->
+
+        </div>
+
+    </div>
+</div>
+
+</div>
+
+<!--end col-md-6-->
+
+<!--begin col-md-6-->
+
+<div class="col-md-6">
+
+        <img src="images/giphy.gif" style="width:75%;" class="width-100 fluid" alt="about-us-image">
+
+    </div>
+
+</div>
+
+<!--end col-md-6-->
+
+
+
+</div>
+
+
+
+        </div>
+    </div>
+</div>
+  
+
+
+<section class="section-white-xs" style="background-color:#f6f7f8">
+
+        <!--begin container-->
+
+        <div class="container">
+
+            <!--begin row-->
+
+            <div class="row">
+            <section >
+    <div class="module v2-new-or-switching-module overflow-hidden in-viewport ">
+        <div class="container">
+        <h1 style="text-align:center;">Choose from a range of machines</h1>
+        <link rel="stylesheet" type="text/css" href="css\additional\tp.min78ce.css">
+            <div class=" card-deck justify-content-around">
+                        <div class="card border-0">
+                            <a href="#">
+
+                                    <picture>
+                                        <source srcset="images/payment-gateway.png" type="image/webp">
+                                        <img src="images/payment-gateway.png" class="card-img-top lazy">
+                                    </picture>                            </a>
+                            <div class="card-body">
+                                <h3>Payment Gateway</h3>
+                                <p><strong>Accept all major credit and debit cards through your website.</strong></p>
+
+                                <p>Link to all major shopping baskets</p>
+
+                                <p>Your online shopping basket customized to your brand</p>
+
+                                <p>Simple to set up</p>
+                                <a href="{{url('contact')}}" class="btn p-2 btn-outline-orange">
+                                    Find out more
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card border-0">
+                            <a href="#/">
+
+                                    <picture>
+                                        <source srcset="images/link.png" type="image/webp">
+                                        <img src="images/98-989061_svg-link-clip-art-royalty-free-download-link.png" class="card-img-top lazy">
+                                    </picture>                            </a>
+                            <div class="card-body">
+                                <h3>Pay by link</h3>
+                                <p><strong>Add a payment link to your emails and invoices.</strong></p>
+
+                                <p>Create and send electronic invoices</p>
+
+                                 <p>Send a custom email with a pay now button</p>
+
+                                 <p>Simply copy and past a pay link into an email</p><br>
+                                <a href="{{url('contact')}}" class="btn p-2 btn-outline-orange">
+                                    Find out more
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card border-0">
+                            <a href="{{url('contact')}}">
+
+                                    <picture>
+                                        <source srcset="images/payment-gateway-solutions.png" type="image/webp">
+                                        <img src="images/payment-gateway-solutions.png" class="card-img-top lazy">
+                                    </picture>                            </a>
+                            <div class="card-body">
+                                <h3>Virtual terminal</h3>
+                                <p class="card-content"><strong>Take payments over the phone via our secure online system.</strong></p>
+
+                                <p class="card-content">No website necessary</p>
+
+                                <p class="card-content">Once you have your login you're ready to go</p>
+
+                                <p class="card-content">Accessible from your phone, tablet, laptop or computer</p><br>
+                                <a href="{{url('contact')}}" class="btn p-2 btn-outline-orange">
+                                    Find out more
+                                </a>
+                            </div>
+                        </div>
+            </div><br><br>
+
+    </div>
+ </section>
+
+            </div>
+
+            <!--end row-->
+
+
+
+        </div>
+
+        <!--end container-->
+
+
+
+    </section>
+
 @endsection
