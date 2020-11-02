@@ -53,5 +53,7 @@ Route::get('/online-payments', function () {
 
 Route::post('quote', [QuoteController::class, 'store']);
 Route::post('contact', [ContactController::class, 'store']);
-
+Route::get('quote', function() {
+    return view('quote');
+});
 

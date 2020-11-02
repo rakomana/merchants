@@ -2,7 +2,7 @@
 
 @section('content')
 <section>
-<div class="home-section2" style="background-image:url(images/contact.png)">
+<div class="home-section2" style="background-image:url(images/Contact-Us.jpg)">
 
 
         <div class="container">
@@ -25,7 +25,7 @@
 				<div class="textcenter">
 					
 					<span class="seperator"></span>
-					<h1>Drop Us a Mail</h1>
+					<h1>Get In Touch</h1>
 				</div>
 			</section>
 		
