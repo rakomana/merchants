@@ -57,7 +57,7 @@
 
     <!--begin newsletter_info -->
 
-    <div class="newsletter_info3 margin-bottom-35">
+    <div class="newsletter_info3 margin-bottom-40">
 
 
 

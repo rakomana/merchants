@@ -23,7 +23,7 @@
                             <p style="color:#e1dae5; font-size:20px;"><strong>Want to sell your products online? It can help you reach new customers, which should mean more sales in the long run.
 
                             Well, we’re here to help.</strong> </p>
-                            <p style="color:#e1dae5; font-size:20px;"><strong>Our online payment gateway hooks up with the majority of leading shopping carts, so you can take payments through your website and get those sales coming in.</strong></p>
+                            <p style="color:#e1dae5; font-size:20px;"><strong>Our payments gateway integrates with the majority of leading shopping carts, so you can take payments through your website and get those sales coming in.</strong></p>
                                                    <!-- <a class="btn btn-outline-white mt-1" href="/get-a-free-quote/" id="pulloutBannerCta">Get a free quote</a> -->
             </div>
         </div>
@@ -38,52 +38,37 @@
     <!--begin newsletter_info -->
 
     <div class="newsletter_info3 margin-bottom-40">
-       <form id="contact" action="{{url('quote')}}" method="post">
-            @csrf
-            @if ($message = Session::get('success'))
-            <div class="alert alert-success alert-block">
-                <button type="button" class="close" data-dismiss="alert">×</button>	
-                    <strong>{{ $message }}</strong>
-            </div>
-            @endif
-            <h3>Get your Free quote today</h3>   
-            <fieldset>
-              <input name="full_name" placeholder="Your full name" type="text" tabindex="1" required autofocus>
-            </fieldset>
-            <fieldset>
-              <input name="business_name" placeholder="Your business name" type="text" tabindex="2" required>
-            </fieldset>
-            <fieldset>
-              <input name="phone_number" placeholder="Your contact number" type="tel" tabindex="3" required>
-            </fieldset>
-            <fieldset>
-              <input name="email" placeholder="Your email address" type="email" tabindex="3" required>
-            </fieldset>
-            <fieldset>
-            <button name="submitbtn" type="submit" href="#" class="btn btn-primary" tabindex="0">Get a FREE quote</button>
-            </fieldset>
-          </form>
-<!--    <form id="contact" action="" method="post">
-    <h3>Get your Free quote today</h3>
 
-    <fieldset>
-      <input placeholder="Your full name" type="text" tabindex="1" required autofocus>
-    </fieldset>
-    <fieldset>
-      <input placeholder="Your business name" type="text" tabindex="2" required>
-    </fieldset>
-    <fieldset>
-      <input placeholder="Your contact number" type="tel" tabindex="3" required>
-    </fieldset>
-    <fieldset>
-      <input placeholder="Your email address" type="email" tabindex="3" required>
-    </fieldset>
-    <fieldset>
-
-      <button name="submitbtn" type="submit" href="#" class="button primary large" tabindex="0">Get a FREE quote</button>
-
-    </fieldset>
-  </form> -->
+      <form id="contact" action="{{url('quote')}}" method="post">
+        @csrf
+        @if ($message = Session::get('success'))
+        <div class="alert alert-success alert-block">
+            <button type="button" class="close" data-dismiss="alert">×</button>	
+                <strong>{{ $message }}</strong>
+        </div>
+        @endif
+    
+        <h3>Get your Free quote today</h3>
+    
+        <fieldset>
+          <input name="full_name" placeholder="Your full name" type="text" tabindex="1" required autofocus>
+        </fieldset>
+        <fieldset>
+          <input name="business_name" placeholder="Your business name" type="text" tabindex="2" required>
+        </fieldset>
+        <fieldset>
+          <input name="phone_number" placeholder="Your contact number" type="tel" tabindex="3" required>
+        </fieldset>
+        <fieldset>
+          <input name="email" placeholder="Your email address" type="email" tabindex="3" required>
+        </fieldset>
+        
+        <fieldset>
+    
+        <button name="submitbtn" type="submit" href="#" class="button primary large" tabindex="0">Get a FREE quote</button>
+    
+        </fieldset>
+      </form>
         </div>
 </div>
 </div>
@@ -230,7 +215,7 @@
             <section >
     <div class="module v2-new-or-switching-module overflow-hidden in-viewport ">
         <div class="container">
-        <h1 style="text-align:center;">Choose from a range of machines</h1>
+        <h1 style="text-align:center;">Choose from a range of options</h1>
         <link rel="stylesheet" type="text/css" href="css\additional\tp.min78ce.css">
             <div class=" card-deck justify-content-around">
                         <div class="card border-0">
@@ -258,8 +243,8 @@
                             <a href="#/">
 
                                     <picture>
-                                        <source srcset="images/link.png" type="image/webp">
-                                        <img src="images/98-989061_svg-link-clip-art-royalty-free-download-link.png" class="card-img-top lazy">
+                                        <source srcset="images/download14.jpg" type="image/webp">
+                                        <img src="images/download.jpg" class="card-img-top lazy">
                                     </picture>                            </a>
                             <div class="card-body">
                                 <h3>Pay by link</h3>

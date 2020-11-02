@@ -2,7 +2,7 @@
 
 @section('content')
 <section>
-<div class="home-section2" style="background-image:url(images/contact.png)">
+<div class="home-section2" style="background-image:url(images/Contact-Us.jpg)">
 
 
         <div class="container">
@@ -25,7 +25,7 @@
 				<div class="textcenter">
 					
 					<span class="seperator"></span>
-					<h1>Drop Us a Mail</h1>
+					<h1>Get In Touch</h1>
 				</div>
 			</section>
 		
@@ -42,7 +42,6 @@
 					</div>
 					<div class="sec2contactform">
                         <h3 class="sec2frmtitle">For more information complete our contact form and one of our specialist payment consultants will contact you</h3>
-                        @csrf
 						<form action="{{url('contact')}}" method="POST">
 							@csrf
 							@if ($message = Session::get('success'))
