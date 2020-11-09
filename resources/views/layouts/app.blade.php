@@ -132,7 +132,7 @@
                     <span class="icon-bar"></span>
                 </button>
 
-                <a href="index.html" class="navbar-brand brand scrool" id="logo"><img src="images/logo/merchant_logo.png" style="style: 200px;" alt=""></a>
+                <a href="{{url('/')}}" class="navbar-brand brand scrool" id="logo"><img src="images/logo/merchant_logo.png" style="style: 100%; height: 100%; padding-bottom: 10px;" alt=""></a>
             </div>
             </div>
             <!-- end col -->
@@ -154,7 +154,8 @@
                     <li class="dropdown"><a href="{{url('contact')}}">CONTACT US</a>
                     </li>
                     <li>
-                    <a class="btn btn-primary" href="{{url('/quote')}}" style="padding-top:12px; padding-right:0px;color:white;">Get a quote &nbsp;&nbsp;</a>
+                    <a class="btn btn-primary" href="{{url('/quote')}}" style="padding: 3px 19px;
+                    text-align: center;color:white;">Get a quote &nbsp;&nbsp;</a>
                     </li>
                 </ul>
                 <!-- end nav -->

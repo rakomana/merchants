@@ -35,6 +35,18 @@ Route::get('/my-page', function () {
     return view('my-page');
 });
 
+Route::get('/epos', function () {
+    return view('epos');
+});
+
+Route::get('/privacy', function () {
+    return view('privacy');
+});
+
+Route::get('/mobile', function () {
+    return view('mobile');
+});
+
 Route::get('/about-us', function () {
     return view('about-us');
 });
@@ -43,8 +55,8 @@ Route::get('/get-a-quote', function () {
     return view('get-a-quote');
 });
 
-Route::get('/face-to-face-payments', function () {
-    return view('face-to-face-payments');
+Route::get('/card-terminals', function () {
+    return view('card-terminals');
 });
 
 Route::get('/online-payments', function () {
